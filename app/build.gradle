@@ -149,6 +149,7 @@ dependencies {
         exclude group: 'com.android.support'
     }
 
+    compile rootProject.ext.androidSupportDependencies.supportThirteen
     compile project(":library")
 
 }
